@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/gemini-svg.ico" type="image/x-icon">
+    <title>TTranslator</title>
+  <body>
+    <div class="container">
+      <div class="Barra_central">
+        <select id="language">
+          <option value="es">espanhol</option>
+          <option value="fr">francês</option>
+          <option value="en">inglês</option>
+          <option value="it">italiano</option>
+        </select>
+      </div>
+
+      <div class="Caixa_central">
+        <div class="entrada">
+          <textarea id="text-area"></textarea>
+        </div>
+
+        <div class="saída">
+          <p id="translate-result">A tradução aparecerá aqui...</p>
+        </div>
+      </div>
+
+      <div class="botoes">
+        <button id="translate-button">
+          <img src="img/traduzir.svg" alt="Ícone de tradução" />
+        </button>
+        <button id="voice-button">
+          <img src="img/microfone.svg" alt="Ícone de voz" />
+        </button>
+      </div>
+    </div>
+    <script src="TTranslator.js"></script>
+  </body>
+</html>
+
