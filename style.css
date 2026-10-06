@@ -99,3 +99,35 @@ body {
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        padding: 12px;
+    }
+
+    .Barra_central {
+        height: 55px;
+        margin-bottom: 8px;
+    }
+
+    .Caixa_central {
+        height: auto;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .esquerda,
+    .direita {
+        width: 100%;
+        height: 280px;
+    }
+
+}
